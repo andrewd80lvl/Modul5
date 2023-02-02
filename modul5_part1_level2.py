@@ -52,13 +52,3 @@ print(pt3.get_coord())
 pt4 = Point(1920, 1080)
 pt3 = pt3 + pt4
 print(pt3.get_coord())
-
-Traceback (most recent call last):
-  File "C:\Users\Andrey.Dolgirev\Documents\project\project\modul_5\modul5_part1_level2.py", line 53, in <module>
-    pt3 = pt3 + pt4
-  File "C:\Users\Andrey.Dolgirev\Documents\project\project\modul_5\modul5_part1_level2.py", line 31, in __add__
-    raise ValueError('Точка задана вне границ:' + str(self.MAX_X) + ',' + str(self.MAX_Y))
-ValueError: Точка задана вне границ:1920,1080
-(20, 40)
-(60, 60)
-(80, 100)
